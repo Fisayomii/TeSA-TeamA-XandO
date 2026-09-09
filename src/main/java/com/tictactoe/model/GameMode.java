@@ -13,3 +13,4 @@ public String botLevel() {
     if (this == PVP) throw new IllegalStateException("PVP has no bot level");
     return name().substring("PVE_".length());
 }
+}
